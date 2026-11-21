@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Knowledge cockpit",
+    "description": "Adds a knowledge cockpit page to the sidebar. It scans a local Markdown knowledge base and shows asset totals, every topic, a distribution ring, monthly bar chart, recently updated notes, structure health and to-dos. Structure gaps in the to-do list can generate an index.md / 项目记忆.md scaffold in one click (undoable on the same page; it only ever writes those two file names into topic folders that lack them and never touches existing files). It reads local disk only: no network calls, no model requests. Cached for 60 seconds by default; rescan any time. The footer states how each number is measured."
+  }
+}

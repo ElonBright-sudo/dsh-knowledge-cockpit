@@ -1,0 +1,57 @@
+{
+  "name": "dsh-knowledge-cockpit",
+  "version": "0.1.0",
+  "description": "Knowledge cockpit for DeepSeek Harness: a live sidebar dashboard for a local Markdown knowledge base — totals, topic distribution, growth trend, recent notes, structure health and actionable to-dos.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "icon.svg"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "knowledge-base",
+    "obsidian",
+    "markdown",
+    "dashboard",
+    "knowledge-management"
+  ],
+  "license": "MIT",
+  "author": "ElonBright-sudo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElonBright-sudo/dsh-knowledge-cockpit.git"
+  },
+  "homepage": "https://github.com/ElonBright-sudo/dsh-knowledge-cockpit#readme",
+  "bugs": {
+    "url": "https://github.com/ElonBright-sudo/dsh-knowledge-cockpit/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    },
+    "engines": {
+      "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+    }
+  }
+}

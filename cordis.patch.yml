@@ -1,0 +1,8 @@
+# Knowledge cockpit: adds one plugin row to the profile.
+# The host half scans a local Markdown knowledge base and serves
+# /api/knowledge-cockpit; the client half adds the sidebar page.
+# Set `root` in your own profile patch (see README) — the default is ~/知识库.
+- insert:
+    - id: ui-knowledge-cockpit
+      name: 'dsh-knowledge-cockpit'
+      config: {}

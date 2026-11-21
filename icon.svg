@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <defs>
+    <linearGradient id="kcIconArc" x1="8.5" y1="27" x2="27.5" y2="11" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e2b45a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+  </defs>
+  <path d="M8.5 26.5a9.5 9.5 0 1 1 19 0" stroke="url(#kcIconArc)" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M18 26.2 21.2 18.2" stroke="#3b2a6b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="18" cy="26.2" r="2.1" fill="#3b2a6b"/>
+  <path d="M11.5 30.2h13" stroke="#b8862f" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.6"/>
+</svg>
